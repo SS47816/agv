@@ -1,0 +1,11 @@
+<launch>
+  
+  <!-- Joystick Teleop -->
+  <node name="joystick" pkg="agv" type="joystick" output="screen">
+    <param name="joy_topic" value="/joy"/>
+    <param name="cmd_vel_out_topic" value="/cmd_vel_out"/>
+  </node>
+
+  <node name="arduino_throttle" pkg="rosserial_python" type="serial_node.py" args="/dev/ttyACM0"/>
+
+</launch>

@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/ss/agv_ws/devel/include/**",
+        "/home/ss/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/opt/ros/melodic/share/julius/include/**",
+        "/home/ss/catkin_ws/src/Lanelet2/lanelet2_core/include/**",
+        "/home/ss/catkin_ws/src/Lanelet2/lanelet2_examples/include/**",
+        "/home/ss/catkin_ws/src/Lanelet2/lanelet2_io/include/**",
+        "/home/ss/catkin_ws/src/Lanelet2/lanelet2_maps/include/**",
+        "/home/ss/catkin_ws/src/Lanelet2/lanelet2_projection/include/**",
+        "/home/ss/catkin_ws/src/Lanelet2/lanelet2_python/include/**",
+        "/home/ss/catkin_ws/src/Lanelet2/lanelet2_routing/include/**",
+        "/home/ss/catkin_ws/src/Lanelet2/lanelet2_traffic_rules/include/**",
+        "/home/ss/catkin_ws/src/Lanelet2/lanelet2_validation/include/**",
+        "/home/ss/catkin_ws/src/objmap/objmap_core/include/**",
+        "/home/ss/catkin_ws/src/objmap/objmap_visualization/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
